@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "336963140549",
+    "project_id": "uts-iqbal-a6b53",
+    "storage_bucket": "uts-iqbal-a6b53.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:336963140549:android:b271c53ee95a157904e9ac",
+        "android_client_info": {
+          "package_name": "com.example.uts_iqbal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "336963140549-k84c1n6usc1oum8q6mrts26qjshubmpi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.uts_iqbal",
+            "certificate_hash": "e23dce0b2c1c0248e57df881c3ecfcb3e26c3d13"
+          }
+        },
+        {
+          "client_id": "336963140549-sd01f7p0m208ueopp3am3gf7laccr0lj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZXrdDsUytahW2VuIiB1tNrPZ-vk4yXj8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "336963140549-17ibvgmibh6622r2972qoh5irkn2pieg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="220dp"
+        android:src="@drawable/logo_lightchat" />
+
+    <LinearLayout
+        android:id="@+id/ly_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/logo"
+        android:orientation="vertical"
+        android:padding="30dp">
+
+        <EditText
+            android:id="@+id/user_login"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/button_shape"
+            android:backgroundTint="@color/abuabu"
+            android:fontFamily="@font/inter"
+            android:hint="Masukkan Email"
+            android:paddingLeft="10dp"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/user_password"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/button_shape"
+            android:backgroundTint="@color/abuabu"
+            android:fontFamily="@font/inter"
+            android:hint="Masukkan Kata Sandi"
+            android:inputType="textPassword"
+            android:paddingLeft="10dp"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_masuk"
+        android:layout_width="330dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/ly_3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:width="311dp"
+        android:background="@drawable/button_shape"
+        android:text="Masuk"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:id="@+id/ly_4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_masuk"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/belumpunyaakun"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/inter"
+            android:text="belum punya akun? "
+            android:textColor="@color/black"
+            android:textSize="12sp" />
+        <TextView
+            android:id="@+id/buatakun"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/inter"
+            android:text="buat akun "
+            android:textColor="@color/pink"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_lanjutkangoogle"
+        android:layout_width="330dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/ly_4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:width="311dp"
+        android:background="@drawable/button_gmail"
+        android:backgroundTint="@color/abuabu"
+        android:drawableStart="@drawable/google"
+        android:fontFamily="@font/inter"
+        android:paddingHorizontal="16dp"
+        android:text="Lanjutkan Dengan Google"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textSize="15dp" />
+</RelativeLayout>

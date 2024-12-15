@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Light Chat</string>
+    <string name="ek_img_content">ExportKit Image</string>
+    <string name="email_atau_nomor_telepon_string">Email atau Nomor Telepon</string>
+    <string name="kata_sandi_string">Kata Sandi</string>
+    <string name="masuk_string">Masuk</string>
+    <string name="buat_akun_atau_reset_password_string">buat akun atau reset password</string>
+    <string name="lanjutkan_dengan_google_string">Lanjutkan dengan Google</string>
+    <string name="title_activity_chat">ChatActivity</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="sub_judul">Allah tidak akan memberikan cobaan atau ujian melampaui batas kemampuan dan keteguhan mahluk-Nya</string>
+    <string name="web_client_id">336963140549-sd01f7p0m208ueopp3am3gf7laccr0lj.apps.googleusercontent.com</string>
+</resources>
